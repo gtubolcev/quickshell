@@ -30,7 +30,7 @@ jobs:
             spirv-tools libxkbcommon-dev \
 
       - name: Configure
-        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCRASH_REPORTER=OFF
+        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCRASH_REPORTER=OFF -DCRASH_REPORTER=OFF
 
       - name: Build
         run: cmake --build build
