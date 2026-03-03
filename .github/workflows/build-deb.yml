@@ -1,0 +1,41 @@
+name: Build DEB (Ubuntu Noble)
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            build-essential cmake ninja-build \
+            qt6-base-dev qt6-declarative-dev qt6-shadertools-dev \
+            pkg-config spirv-tools cli11-dev \
+            libwayland-dev wayland-protocols \
+            libpipewire-0.3-dev qt6svg-dev
+
+      - name: Configure
+        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build
+
+      - name: Package (.deb via CPack)
+        run: |
+          cd build
+          cpack -G DEB
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: quickshell-deb
+          path: build/*.deb
