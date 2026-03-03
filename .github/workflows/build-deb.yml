@@ -1,4 +1,4 @@
-name: Build DEB (Ubuntu Noble)
+name: Build DEB (Ubuntu Noble, no Nix)
 
 on:
   push:
@@ -12,28 +12,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install build dependencies (APT only)
         run: |
           sudo apt update
           sudo apt install -y \
-            build-essential cmake ninja-build \
-            qt6-base-dev qt6-declarative-dev qt6-shadertools-dev \
-            pkg-config spirv-tools cli11-dev \
-            libwayland-dev wayland-protocols \
-            libpipewire-0.3-dev qt6svg-dev
+            build-essential \
+            cmake \
+            ninja-build \
+            pkg-config \
+            qt6-base-dev \
+            qt6-declarative-dev \
+            qt6-shadertools-dev \
+            qt6-svg-dev \
+            libwayland-dev \
+            wayland-protocols \
+            libpipewire-0.3-dev \
+            spirv-tools \
+            cli11-dev
 
-      - name: Configure
-        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+      - name: Configure (CMake)
+        run: |
+          cmake -B build \
+                -G Ninja \
+                -DCMAKE_BUILD_TYPE=Release \
+                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DUSE_JEMALLOC=OFF
 
       - name: Build
         run: cmake --build build
 
-      - name: Package (.deb)
+      - name: Package (.deb via CPack)
         run: |
           cd build
           cpack -G DEB
 
-      - name: Upload artifact
+      - name: Upload .deb artifact
         uses: actions/upload-artifact@v4
         with:
           name: quickshell-deb
