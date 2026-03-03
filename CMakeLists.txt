@@ -173,3 +173,13 @@ install(
 	DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps
 	RENAME org.quickshell.svg
 )
+
+
+include(GNUInstallDirs)
+install(TARGETS quickshell RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+set(CPACK_GENERATOR "DEB")
+set(CPACK_PACKAGE_NAME "quickshell")
+set(CPACK_PACKAGE_VERSION "0.1.0")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "builder")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6 (>= 6.6), libqt6qml6")
+include(CPack)
