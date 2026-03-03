@@ -13,7 +13,7 @@ add_subdirectory(widgets)
 add_subdirectory(ui)
 
 if (CRASH_HANDLER)
-	add_subdirectory(crash)
+# add_subdirectory(crash)  # disabled for Noble DEB
 endif()
 
 if (DBUS)
