@@ -18,10 +18,11 @@ jobs:
           sudo apt update
           sudo apt install -y \
             build-essential cmake ninja-build \
-            qt6-base-dev qt6-declarative-dev qt6-shadertools-dev \
-            pkg-config spirv-tools cli11-dev \
+            qt6-base-dev qt6-declarative-dev qt6-shader-tools-dev \
+            qt6-svg-dev \
+            pkg-config \
             libwayland-dev wayland-protocols \
-            libpipewire-0.3-dev qt6svg-dev
+            libpipewire-0.3-dev
 
       - name: Configure
         run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
