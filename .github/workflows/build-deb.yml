@@ -27,14 +27,14 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             libpipewire-0.3-dev \
-            spirv-tools \
+            spirv-tools libxkbcommon-dev \
 
       - name: Configure (CMake)
         run: |
           cmake -B build \
                 -G Ninja \
                 -DCMAKE_BUILD_TYPE=Release \
-                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DCMAKE_INSTALL_PREFIX=/usr -DCRASH_REPORTER=OFF \
                 -DUSE_JEMALLOC=OFF
 
       - name: Build
