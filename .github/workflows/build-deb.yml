@@ -28,7 +28,6 @@ jobs:
             wayland-protocols \
             libpipewire-0.3-dev \
             spirv-tools \
-            cli11-dev
 
       - name: Configure (CMake)
         run: |
