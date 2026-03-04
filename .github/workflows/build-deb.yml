@@ -1,9 +1,8 @@
-name: Build DEB (Ubuntu Noble, no Nix)
+name: Build DEB (Ubuntu Noble)
 
 on:
   push:
-    tags:
-      - "v*"
+    tags: ["v*"]
 
 jobs:
   build:
@@ -12,42 +11,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install build dependencies (APT only)
+      - name: Disable crash module
+        run: sed -i 's/add_subdirectory(crash)/#add_subdirectory(crash)/' src/CMakeLists.txt
+
+      - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y libjemalloc-dev \
-git clone https://github.com/jeremy-rifkin/cpptrace && cd cpptrace && cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && sudo cmake --build build --target install && cd ..
-            build-essential \
-            cmake \
-            ninja-build \
-            pkg-config \
-            qt6-base-dev \
-            qt6-declarative-dev \
-            qt6-shadertools-dev \
-            qt6-svg-dev qt6-wayland-dev qt6-wayland-private-dev libcli11-dev \
-            libwayland-dev \
-            wayland-protocols \
-            libpipewire-0.3-dev \
-            spirv-tools libxkbcommon-dev libdrm-dev libgbm-dev libegl1-mesa-dev libglib2.0-dev libpolkit-agent-1-dev \
+          sudo apt install -y \
+            build-essential cmake ninja-build \
+            qt6-base-dev qt6-declarative-dev qt6-wayland-dev \
+            qt6-base-private-dev qt6-declarative-private-dev \
+            libxkbcommon-dev libdrm-dev libgbm-dev libegl-dev \
+            libxcb1-dev libpipewire-0.3-dev libglib2.0-dev \
+            libpolkit-agent-1-dev libpolkit-gobject-1-dev \
+            libpam0g-dev
 
-      - name: Configure (CMake)
-        run: |
-          cmake -B build \
-                -G Ninja \
-                -DCMAKE_BUILD_TYPE=Release -DUSE_JEMALLOC=OFF
-                -DCMAKE_INSTALL_PREFIX=/usr -DCRASH_REPORTER=OFF \
-                -DUSE_JEMALLOC=OFF
+      - name: Configure
+        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/usr
 
       - name: Build
         run: cmake --build build
 
-      - name: Package (.deb via CPack)
+      - name: Package
         run: |
           cd build
           cpack -G DEB
 
-      - name: Upload .deb artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: quickshell-deb
           path: build/*.deb
