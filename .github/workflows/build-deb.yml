@@ -33,7 +33,7 @@ jobs:
         run: |
           cmake -B build \
                 -G Ninja \
-                -DCMAKE_BUILD_TYPE=Release -DQS_BUILD_CRASH=OFF
+                -DCMAKE_BUILD_TYPE=Release -DQS_USE_JEMALLOC=OFF
                 -DCMAKE_INSTALL_PREFIX=/usr -DCRASH_REPORTER=OFF \
                 -DUSE_JEMALLOC=OFF
 
