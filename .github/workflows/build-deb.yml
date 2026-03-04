@@ -1,10 +1,9 @@
+cat > .github/workflows/build-deb.yml << 'EOF'
 name: build
 
 on:
   push:
   pull_request:
-  push:
-    tags: ["v*"]
 
 jobs:
   build:
@@ -13,10 +12,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Disable crash module
-        run: sed -i 's/add_subdirectory(crash)/#add_subdirectory(crash)/' src/CMakeLists.txt
-
-      - name: Install dependencies
+      - name: Install deps
         run: |
           sudo apt update
-          sudo apt install -y build-essential cmake ninja-build git pkg-config qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-base-private-dev qt6-declarative-private-dev qt6-tools-dev qt6-tools-dev-tools qt6-shadertools-dev libxkbcommon-dev libdrm-dev libgbm-dev libegl-dev libxcb1-dev libxcb-composite0-dev libpipewire-0.3-dev libglib2.0-dev libpolkit-agent-1-dev libpolkit-gobject-1-dev libpam0g-dev
+          sudo apt install -y build-essential ninja-build cmake pkg-config \
+          qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-shadertools-dev \
+          libxkbcommon-dev libwayland-dev wayland-protocols \
+          libegl1-mesa-dev libgbm-dev libdrm-dev \
+          libpipewire-0.3-dev libpam0g-dev \
+          libpolkit-agent-1-dev libpolkit-gobject-1-dev \
+          libglib2.0-dev libxcb1-dev libjemalloc-dev
+
+      - name: Configure
+        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DQS_BUILD_CRASH=OFF -DQS_BUILD_TESTS=OFF
+
+      - name: Build
+        run: cmake --build build -j$(nproc)
+EOF
