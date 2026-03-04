@@ -1,9 +1,9 @@
 #pragma once
 
 #include <qobject.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 class TestObject {
 public:

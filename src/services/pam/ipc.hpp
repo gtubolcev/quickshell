@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <string>
 
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 
 enum class PamIpcEvent : uint8_t {
 	Request,

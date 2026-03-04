@@ -5,7 +5,7 @@
 #include <qproperty.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../toplevel_management/handle.hpp"
 #include "../../toplevel_management/qml.hpp"

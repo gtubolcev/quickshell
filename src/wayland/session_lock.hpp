@@ -11,9 +11,9 @@
 #include <qquickitem.h>
 #include <qquickwindow.h>
 #include <qscreen.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/qmlscreen.hpp"
 #include "../core/reload.hpp"

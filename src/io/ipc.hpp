@@ -2,8 +2,8 @@
 
 #include <qcontainerfwd.h>
 #include <qobjectdefs.h>
-#include <qtclasshelpermacros.h>
-#include <qtypes.h>
+#include <QtCore/qtclasshelpermacros.h>
+#include <QtCore/qtypes.h>
 
 #include "../ipc/ipc.hpp"
 

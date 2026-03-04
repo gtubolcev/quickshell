@@ -4,7 +4,7 @@
 #include <qproperty.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 namespace qs::network {
 

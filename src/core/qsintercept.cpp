@@ -12,7 +12,7 @@
 #include <qobject.h>
 #include <qqmlabstracturlinterceptor.h>
 #include <qstring.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qurl.h>
 
 #include "logcat.hpp"

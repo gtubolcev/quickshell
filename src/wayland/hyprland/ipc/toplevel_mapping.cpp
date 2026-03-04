@@ -3,7 +3,7 @@
 #include <qlogging.h>
 #include <qobject.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwaylandclientextension.h>
 
 #include "../../toplevel_management/manager.hpp"

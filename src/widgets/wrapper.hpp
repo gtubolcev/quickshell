@@ -8,7 +8,7 @@
 #include <qqmlparserstatus.h>
 #include <qquickitem.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/doc.hpp"
 

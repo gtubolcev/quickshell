@@ -7,7 +7,7 @@
 #include <qloggingcategory.h>
 #include <qobject.h>
 #include <qtextstream.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/generation.hpp"
 #include "../core/logging.hpp"

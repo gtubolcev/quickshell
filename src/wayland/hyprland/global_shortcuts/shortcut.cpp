@@ -1,7 +1,7 @@
 #include "shortcut.hpp"
 
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <wayland-hyprland-global-shortcuts-v1-client-protocol.h>
 
 namespace qs::hyprland::global_shortcuts::impl {

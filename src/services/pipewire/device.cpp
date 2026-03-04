@@ -10,7 +10,7 @@
 #include <qloggingcategory.h>
 #include <qobject.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/param/param.h>
 #include <spa/param/props.h>
 #include <spa/param/route.h>

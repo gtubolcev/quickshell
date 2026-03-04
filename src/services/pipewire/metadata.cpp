@@ -8,7 +8,7 @@
 #include <qobject.h>
 #include <qstringview.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/utils/dict.h>
 
 #include "../../core/logcat.hpp"

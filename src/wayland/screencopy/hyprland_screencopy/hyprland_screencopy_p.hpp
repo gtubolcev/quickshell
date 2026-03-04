@@ -1,6 +1,6 @@
 #pragma once
 
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-hyprland-toplevel-export-v1.h>
 
 #include "../../toplevel_management/handle.hpp"

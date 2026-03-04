@@ -2,7 +2,7 @@
 
 #include <qcontainerfwd.h>
 #include <qproperty.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "connection.hpp"
 #include "controller.hpp"

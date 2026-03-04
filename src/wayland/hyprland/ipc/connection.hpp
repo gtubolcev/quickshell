@@ -10,7 +10,7 @@
 #include <qproperty.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../../core/model.hpp"
 #include "../../../core/qmlscreen.hpp"

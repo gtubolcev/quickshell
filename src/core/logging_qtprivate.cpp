@@ -14,7 +14,7 @@
 #include <qloggingcategory.h>
 #include <qstringtokenizer.h>
 #include <qstringview.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "logcat.hpp"
 #include "logging_qtprivate.hpp"

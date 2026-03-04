@@ -1,9 +1,9 @@
 #pragma once
 
 #include <qobject.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-hyprland-global-shortcuts-v1.h>
 
 namespace qs::hyprland::global_shortcuts::impl {

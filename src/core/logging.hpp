@@ -7,7 +7,7 @@
 #include <qdatetime.h>
 #include <qfile.h>
 #include <qhash.h>
-#include <qlatin1stringview.h>
+#include <QtCore/qlatin1stringview.h>
 #include <qlogging.h>
 #include <qloggingcategory.h>
 #include <qobject.h>

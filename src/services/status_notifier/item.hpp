@@ -8,7 +8,7 @@
 #include <qpixmap.h>
 #include <qproperty.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/imageprovider.hpp"
 #include "../../core/logcat.hpp"

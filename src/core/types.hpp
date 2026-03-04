@@ -7,7 +7,7 @@
 #include <qqmlintegration.h>
 #include <qrect.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 class Box {
 	Q_GADGET;

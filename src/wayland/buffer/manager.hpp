@@ -7,7 +7,7 @@
 #include <qlist.h>
 #include <qmatrix4x4.h>
 #include <qobject.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 #include <qvariant.h>
 #include <sys/types.h>

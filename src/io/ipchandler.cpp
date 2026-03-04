@@ -14,7 +14,7 @@
 #include <qqmlinfo.h>
 #include <qstringbuilder.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/generation.hpp"
 #include "../core/logcat.hpp"

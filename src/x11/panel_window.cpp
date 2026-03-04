@@ -13,7 +13,7 @@
 #include <qtenvironmentvariables.h>
 #include <qtimer.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <xcb/xproto.h>
 
 #include "../core/generation.hpp"

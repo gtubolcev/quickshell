@@ -9,7 +9,7 @@
 #include <qobject.h>
 #include <qthread.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "logging.hpp"
 #include "logging_qtprivate.hpp"

@@ -8,7 +8,7 @@
 #include <qnamespace.h>
 #include <qtmetamacros.h>
 #include <qtversionchecks.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 void ScriptModel::updateValuesUnique(const QVariantList& newValues) {

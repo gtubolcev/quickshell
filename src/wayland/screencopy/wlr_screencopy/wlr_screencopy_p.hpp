@@ -3,8 +3,8 @@
 #include <private/qwayland-wayland.h>
 #include <private/qwaylandscreen_p.h>
 #include <qcontainerfwd.h>
-#include <qtclasshelpermacros.h>
-#include <qtypes.h>
+#include <QtCore/qtclasshelpermacros.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-wlr-screencopy-unstable-v1.h>
 
 #include "../manager.hpp"

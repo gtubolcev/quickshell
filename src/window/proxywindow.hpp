@@ -13,7 +13,7 @@
 #include <qquickwindow.h>
 #include <qsurfaceformat.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 #include <qvectornd.h>
 #include <qwindow.h>

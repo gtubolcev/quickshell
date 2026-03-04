@@ -3,9 +3,9 @@
 #include <private/qwaylandwindow_p.h>
 #include <qobject.h>
 #include <qregion.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-hyprland-surface-v1.h>
 #include <wayland-client-protocol.h>
 #include <wayland-hyprland-surface-v1-client-protocol.h>

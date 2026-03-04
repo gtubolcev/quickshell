@@ -7,7 +7,7 @@
 #include <qqmlparserstatus.h>
 #include <qrunnable.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qurl.h>
 
 class ColorQuantizerOperation

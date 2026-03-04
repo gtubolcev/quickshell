@@ -5,7 +5,7 @@
 #include <qnamespace.h>
 #include <qobject.h>
 #include <qscreen.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 QuickshellScreenInfo::QuickshellScreenInfo(QObject* parent, QScreen* screen)
     : QObject(parent)

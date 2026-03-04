@@ -20,7 +20,7 @@
 #include <qsurfaceformat.h>
 #include <qtenvironmentvariables.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 #include <qwindow.h>
 

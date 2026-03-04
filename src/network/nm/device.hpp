@@ -5,7 +5,7 @@
 #include <qobject.h>
 #include <qproperty.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../dbus/properties.hpp"
 #include "connection.hpp"

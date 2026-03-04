@@ -8,7 +8,7 @@
 #include <qobject.h>
 #include <qpixmap.h>
 #include <qqmlengine.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 namespace {
 

@@ -3,7 +3,7 @@
 #include <qfilesystemwatcher.h>
 #include <qobject.h>
 #include <qqmlengine.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 #include <qurl.h>
 

@@ -5,7 +5,7 @@
 #include <qpoint.h>
 #include <qrect.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 qreal EasingCurve::valueAt(qreal x) const { return this->mCurve.valueForProgress(x); }
 

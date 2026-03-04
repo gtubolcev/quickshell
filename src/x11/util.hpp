@@ -1,7 +1,7 @@
 #pragma once
 
 #include <qbytearray.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <xcb/xcb.h>
 #include <xcb/xproto.h>
 

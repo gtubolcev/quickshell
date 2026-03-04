@@ -5,7 +5,7 @@
 #include <qloggingcategory.h>
 #include <qsize.h>
 #include <qsysinfo.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/logcat.hpp"
 

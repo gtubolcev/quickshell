@@ -11,7 +11,7 @@
 #include <qstring.h>
 #include <qtest.h>
 #include <qtestcase.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../scriptmodel.hpp"
 

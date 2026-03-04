@@ -11,7 +11,7 @@
 #include <qqmllist.h>
 #include <qscreen.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 #include <qwindowdefs.h>
 

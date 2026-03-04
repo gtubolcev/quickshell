@@ -1,7 +1,7 @@
 #pragma once
 
 #include <qqmlintegration.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 #include "platformmenu.hpp"

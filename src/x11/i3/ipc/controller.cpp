@@ -15,7 +15,7 @@
 #include <qobject.h>
 #include <qsysinfo.h>
 #include <qtenvironmentvariables.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../../core/logcat.hpp"
 #include "../../../core/model.hpp"

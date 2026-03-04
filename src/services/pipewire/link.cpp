@@ -7,7 +7,7 @@
 #include <qloggingcategory.h>
 #include <qobject.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/utils/dict.h>
 
 #include "../../core/logcat.hpp"

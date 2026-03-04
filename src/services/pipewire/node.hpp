@@ -8,9 +8,9 @@
 #include <qmap.h>
 #include <qobject.h>
 #include <qqmlintegration.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/param/audio/raw.h>
 #include <spa/pod/pod.h>
 

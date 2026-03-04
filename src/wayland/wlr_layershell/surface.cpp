@@ -13,7 +13,7 @@
 #include <qrect.h>
 #include <qsize.h>
 #include <qtversionchecks.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 #include <qwayland-wlr-layer-shell-unstable-v1.h>
 #include <qwindow.h>

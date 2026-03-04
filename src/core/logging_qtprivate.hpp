@@ -10,7 +10,7 @@
 #include <qlogging.h>
 #include <qloggingcategory.h>
 #include <qstringview.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "logcat.hpp"
 

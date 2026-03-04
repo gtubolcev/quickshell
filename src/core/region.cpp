@@ -7,7 +7,7 @@
 #include <qquickitem.h>
 #include <qregion.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvectornd.h>
 
 PendingRegion::PendingRegion(QObject* parent): QObject(parent) {

@@ -4,7 +4,7 @@
 #include <qlogging.h>
 #include <qtest.h>
 #include <qtestcase.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../ringbuf.hpp"
 

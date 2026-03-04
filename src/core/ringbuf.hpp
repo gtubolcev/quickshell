@@ -6,8 +6,8 @@
 
 #include <qcontainerfwd.h>
 #include <qhashfunctions.h>
-#include <qtclasshelpermacros.h>
-#include <qtypes.h>
+#include <QtCore/qtclasshelpermacros.h>
+#include <QtCore/qtypes.h>
 
 // NOLINTBEGIN(cppcoreguidelines-pro-bounds-pointer-arithmetic)
 

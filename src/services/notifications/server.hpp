@@ -7,7 +7,7 @@
 #include <qhash.h>
 #include <qobject.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/model.hpp"
 #include "notification.hpp"

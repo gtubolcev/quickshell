@@ -4,9 +4,9 @@
 #include <qobject.h>
 #include <qqmlintegration.h>
 #include <qqmllist.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/doc.hpp"
 #include "../../core/model.hpp"

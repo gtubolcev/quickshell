@@ -6,7 +6,7 @@
 #include <qobject.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 ///! State of the Greetd connection.
 /// See @@Greetd.state.

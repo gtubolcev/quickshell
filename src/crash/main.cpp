@@ -16,7 +16,7 @@
 #include <qtenvironmentvariables.h>
 #include <qtextstream.h>
 #include <qtversion.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <sys/sendfile.h>
 #include <sys/types.h>
 #include <unistd.h>

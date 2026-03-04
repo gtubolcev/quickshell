@@ -5,7 +5,7 @@
 #include <qqmlengine.h>
 #include <qqmllist.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwindow.h>
 
 #include "proxywindow.hpp"

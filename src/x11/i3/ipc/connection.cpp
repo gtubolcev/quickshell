@@ -20,7 +20,7 @@
 #include <qsysinfo.h>
 #include <qtenvironmentvariables.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../../core/logcat.hpp"
 

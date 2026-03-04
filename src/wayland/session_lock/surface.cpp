@@ -7,7 +7,7 @@
 #include <qlogging.h>
 #include <qobject.h>
 #include <qtversionchecks.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "lock.hpp"
 #include "session_lock.hpp"
@@ -143,7 +143,7 @@ void QSWaylandSessionLockSurface::initVisible() {
 #include <private/qwayland-wayland.h>
 #include <private/qwaylanddisplay_p.h>
 #include <qscopedpointer.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtdeprecationdefinitions.h>
 
 // As of Qt 6.9, a null buffer is unconditionally comitted to the surface. To avoid this, we

@@ -4,7 +4,7 @@
 #include <qobject.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 ///! Measures time between events
 /// The ElapsedTimer measures time since its last restart, and is useful

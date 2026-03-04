@@ -10,7 +10,7 @@
 #include <qobject.h>
 #include <qsocketnotifier.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/utils/defs.h>
 #include <spa/utils/hook.h>
 

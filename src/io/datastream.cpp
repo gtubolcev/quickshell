@@ -5,7 +5,7 @@
 #include <qlocalsocket.h>
 #include <qobject.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 DataStreamParser* DataStream::reader() const { return this->mReader; }
 

@@ -14,7 +14,7 @@
 #include <qqmlparserstatus.h>
 #include <qrunnable.h>
 #include <qstringview.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 #include "../core/doc.hpp"

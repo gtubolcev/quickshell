@@ -11,7 +11,7 @@
 #include <qqmllist.h>
 #include <qquickimageprovider.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/doc.hpp"
 #include "../../core/imageprovider.hpp"

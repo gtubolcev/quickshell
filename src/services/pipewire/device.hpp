@@ -8,7 +8,7 @@
 #include <qcontainerfwd.h>
 #include <qhash.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/pod/builder.h>
 
 #include "core.hpp"

@@ -8,7 +8,7 @@
 #include <qobject.h>
 #include <qqmlintegration.h>
 #include <qqmllist.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 #include "../core/popupanchor.hpp"

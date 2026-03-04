@@ -4,7 +4,7 @@
 #include <qobject.h>
 #include <qtimer.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 SystemClock::SystemClock(QObject* parent): QObject(parent) {
 	QObject::connect(&this->timer, &QTimer::timeout, this, &SystemClock::onTimeout);

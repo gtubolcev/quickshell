@@ -1,6 +1,6 @@
 #include "elapsedtimer.hpp"
 
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 ElapsedTimer::ElapsedTimer() { this->timer.start(); }
 

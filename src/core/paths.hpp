@@ -2,7 +2,7 @@
 #include <qdatetime.h>
 #include <qdir.h>
 #include <qpair.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "instanceinfo.hpp"
 

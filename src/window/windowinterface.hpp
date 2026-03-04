@@ -6,7 +6,7 @@
 #include <qqmllist.h>
 #include <qquickitem.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/qmlscreen.hpp"
 #include "../core/region.hpp"

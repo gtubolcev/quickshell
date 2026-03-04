@@ -1,7 +1,7 @@
 #pragma once
 
 #include <qobject.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-ext-session-lock-v1.h>
 
 class QSWaylandSessionLockManager;

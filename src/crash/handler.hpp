@@ -1,6 +1,6 @@
 #pragma once
 
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 
 #include "../core/instanceinfo.hpp"
 namespace qs::crash {

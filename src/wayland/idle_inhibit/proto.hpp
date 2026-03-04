@@ -1,7 +1,7 @@
 #pragma once
 
 #include <private/qwaylandwindow_p.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-idle-inhibit-unstable-v1.h>
 #include <qwaylandclientextension.h>
 

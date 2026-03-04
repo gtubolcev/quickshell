@@ -3,7 +3,7 @@
 #include <qobject.h>
 #include <qproperty.h>
 #include <qqmlintegration.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 #include <qwindow.h>
 

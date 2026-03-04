@@ -13,7 +13,7 @@
 #include <qobject.h>
 #include <qstring.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/node/keys.h>
 #include <spa/param/param.h>
 #include <spa/param/props.h>

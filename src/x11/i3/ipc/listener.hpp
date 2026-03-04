@@ -12,7 +12,7 @@
 #include <qproperty.h>
 #include <qqmlinfo.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 #include "../../../core/doc.hpp"

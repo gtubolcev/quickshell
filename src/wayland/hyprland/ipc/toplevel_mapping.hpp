@@ -2,9 +2,9 @@
 
 #include <qhash.h>
 #include <qobject.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-hyprland-toplevel-mapping-v1.h>
 #include <qwaylandclientextension.h>
 

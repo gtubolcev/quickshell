@@ -9,7 +9,7 @@
 #include <qproperty.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../dbus/properties.hpp"
 

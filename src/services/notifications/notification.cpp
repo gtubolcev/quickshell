@@ -8,7 +8,7 @@
 #include <qobject.h>
 #include <qproperty.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/desktopentry.hpp"
 #include "../../core/iconimageprovider.hpp"

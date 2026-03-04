@@ -2,12 +2,12 @@
 
 #include <qdbusargument.h>
 #include <qdebug.h>
-#include <qendian.h>
+#include <QtCore/qendian.h>
 #include <qimage.h>
 #include <qlogging.h>
 #include <qmetatype.h>
 #include <qsysinfo.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 bool DBusSniIconPixmap::operator==(const DBusSniIconPixmap& other) const {
 	return this->width == other.width && this->height == other.height && this->data == other.data;

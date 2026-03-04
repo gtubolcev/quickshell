@@ -3,7 +3,7 @@
 #include <qobject.h>
 #include <qqmlintegration.h>
 #include <qqmlparserstatus.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qthread.h>
 #include <qtmetamacros.h>
 #ifdef __FreeBSD__

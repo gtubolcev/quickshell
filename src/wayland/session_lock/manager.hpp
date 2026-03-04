@@ -1,6 +1,6 @@
 #pragma once
 
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-ext-session-lock-v1.h>
 #include <qwaylandclientextension.h>
 

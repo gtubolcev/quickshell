@@ -7,9 +7,9 @@
 #include <qloggingcategory.h>
 #include <qobject.h>
 #include <qsocketnotifier.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/utils/hook.h>
 
 namespace qs::service::pipewire {

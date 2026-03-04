@@ -8,7 +8,7 @@
 #include <vector>
 
 #include <qlist.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 template <class T, size_t N>
 class StackList {

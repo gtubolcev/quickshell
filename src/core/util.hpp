@@ -3,11 +3,11 @@
 #include <type_traits>
 
 #include <bit>
-#include <qlatin1stringview.h>
+#include <QtCore/qlatin1stringview.h>
 #include <qobject.h>
 #include <qproperty.h>
 #include <qstringview.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 template <size_t length>

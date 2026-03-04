@@ -4,7 +4,7 @@
 #include <qobject.h>
 #include <qqmllist.h>
 #include <qquickitem.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/qmlscreen.hpp"
 #include "../core/region.hpp"

@@ -28,7 +28,7 @@
 #include <qscopedpointer.h>
 #include <qsgrendererinterface.h>
 #include <qsgtexture_platform.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvulkanfunctions.h>
 #include <qvulkaninstance.h>
 #include <qwayland-linux-dmabuf-v1.h>

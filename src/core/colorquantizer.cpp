@@ -16,7 +16,7 @@
 #include <qrgb.h>
 #include <qthreadpool.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "logcat.hpp"
 

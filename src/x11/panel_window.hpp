@@ -6,7 +6,7 @@
 #include <qqmlintegration.h>
 #include <qquickwindow.h>
 #include <qscreen.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 #include "../core/doc.hpp"

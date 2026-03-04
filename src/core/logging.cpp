@@ -7,7 +7,7 @@
 #include <qbytearrayview.h>
 #include <qcoreapplication.h>
 #include <qdatetime.h>
-#include <qendian.h>
+#include <QtCore/qendian.h>
 #include <qfilesystemwatcher.h>
 #include <qhash.h>
 #include <qhashfunctions.h>
@@ -25,7 +25,7 @@
 #include <qtextstream.h>
 #include <qthread.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <sys/mman.h>
 #ifdef __linux__
 #include <sys/sendfile.h>

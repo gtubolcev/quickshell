@@ -6,7 +6,7 @@
 #include <qproperty.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "connection.hpp"
 #include "hyprland_toplevel.hpp"

@@ -5,7 +5,7 @@
 #include <qobject.h>
 #include <qqmlengine.h>
 #include <qquickimageprovider.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 class QsImageProvider: public QQuickImageProvider {

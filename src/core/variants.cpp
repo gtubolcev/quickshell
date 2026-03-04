@@ -8,7 +8,7 @@
 #include <qqmlengine.h>
 #include <qqmllist.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 #include "reload.hpp"

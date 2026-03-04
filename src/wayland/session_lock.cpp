@@ -14,7 +14,7 @@
 #include <qquickwindow.h>
 #include <qscreen.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/qmlglobal.hpp"
 #include "../core/qmlscreen.hpp"

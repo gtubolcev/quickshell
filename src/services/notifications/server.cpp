@@ -10,7 +10,7 @@
 #include <qloggingcategory.h>
 #include <qqmlengine.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/logcat.hpp"
 #include "../../core/model.hpp"

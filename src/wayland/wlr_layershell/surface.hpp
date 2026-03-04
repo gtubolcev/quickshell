@@ -4,9 +4,9 @@
 #include <private/qwaylandwindow_p.h>
 #include <qobject.h>
 #include <qsize.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtwaylandclientexports.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-wlr-layer-shell-unstable-v1.h>
 #include <qwindow.h>
 

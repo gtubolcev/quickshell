@@ -4,9 +4,9 @@
 #include <private/qwaylandshmbackingstore_p.h>
 #include <private/qwaylandwindow_p.h>
 #include <qregion.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtversionchecks.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-ext-session-lock-v1.h>
 
 #include "session_lock.hpp"

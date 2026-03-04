@@ -5,7 +5,7 @@
 #include <qqmlengine.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qurl.h>
 
 #include "reload.hpp"

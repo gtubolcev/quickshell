@@ -4,7 +4,7 @@
 #include <private/qwaylandintegration_p.h>
 #include <qlogging.h>
 #include <qregion.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-hyprland-surface-v1.h>
 #include <wayland-client-protocol.h>
 #include <wayland-hyprland-surface-v1-client-protocol.h>

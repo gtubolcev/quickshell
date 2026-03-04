@@ -6,7 +6,7 @@
 #include <qquickwindow.h>
 #include <qsgtexture.h>
 #include <qsize.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <wayland-client-protocol.h>
 
 #include "manager.hpp"

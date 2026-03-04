@@ -18,7 +18,7 @@
 #include <qscopedpointer.h>
 #include <qthreadpool.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../core/logcat.hpp"
 #include "../core/util.hpp"

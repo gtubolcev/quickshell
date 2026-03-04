@@ -11,8 +11,8 @@
 #include <qquickwindow.h>
 #include <qsgtexture.h>
 #include <qsize.h>
-#include <qtclasshelpermacros.h>
-#include <qtypes.h>
+#include <QtCore/qtclasshelpermacros.h>
+#include <QtCore/qtypes.h>
 #include <qvulkanfunctions.h>
 #include <qwayland-linux-dmabuf-v1.h>
 #include <qwaylandclientextension.h>

@@ -14,9 +14,9 @@
 #include <qlogging.h>
 #include <qloggingcategory.h>
 #include <qscopeguard.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <spa/param/audio/format.h>
 #include <spa/param/audio/raw-utils.h>
 #include <spa/param/audio/raw.h>

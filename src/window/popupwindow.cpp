@@ -4,7 +4,7 @@
 #include <qobject.h>
 #include <qqmlinfo.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwindow.h>
 
 #include "../core/popupanchor.hpp"

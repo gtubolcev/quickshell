@@ -9,7 +9,7 @@
 #include <qqmlintegration.h>
 #include <qqmllist.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 #include "doc.hpp"

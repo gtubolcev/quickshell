@@ -3,7 +3,7 @@
 #include <private/qwaylandwindow_p.h>
 #include <qpair.h>
 #include <qproperty.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-keyboard-shortcuts-inhibit-unstable-v1.h>
 #include <qwaylandclientextension.h>
 

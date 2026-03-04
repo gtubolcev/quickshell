@@ -6,7 +6,7 @@
 #include <qqmllist.h>
 #include <qqmlparserstatus.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwindow.h>
 
 class ProxyWindowBase;

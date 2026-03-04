@@ -2,9 +2,9 @@
 
 #include <qobject.h>
 #include <qproperty.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-ext-idle-notify-v1.h>
 #include <qwaylandclientextension.h>
 #include <wayland-ext-idle-notify-v1-client-protocol.h>

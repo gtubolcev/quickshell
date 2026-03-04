@@ -2,7 +2,7 @@
 
 #include <private/qwaylandshellintegration_p.h>
 #include <private/qwaylandshellsurface_p.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-wlr-layer-shell-unstable-v1.h>
 
 namespace qs::wayland::layershell {

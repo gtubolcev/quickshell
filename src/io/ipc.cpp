@@ -5,7 +5,7 @@
 #include <qcolor.h>
 #include <qmetatype.h>
 #include <qobjectdefs.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 namespace qs::io::ipc {

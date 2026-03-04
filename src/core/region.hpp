@@ -7,7 +7,7 @@
 #include <qquickitem.h>
 #include <qregion.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 ///! Shape of a Region.
 /// See @@Region.shape.

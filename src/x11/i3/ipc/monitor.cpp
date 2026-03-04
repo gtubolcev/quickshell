@@ -5,7 +5,7 @@
 #include <qproperty.h>
 #include <qstring.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "controller.hpp"
 #include "workspace.hpp"

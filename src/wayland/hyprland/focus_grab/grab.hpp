@@ -3,7 +3,7 @@
 #include <private/qwaylandwindow_p.h>
 #include <qlist.h>
 #include <qobject.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 #include <qwayland-hyprland-focus-grab-v1.h>
 #include <qwindow.h>

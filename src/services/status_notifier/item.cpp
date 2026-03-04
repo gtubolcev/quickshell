@@ -17,7 +17,7 @@
 #include <qsize.h>
 #include <qstring.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/iconimageprovider.hpp"
 #include "../../core/imageprovider.hpp"

@@ -10,7 +10,7 @@
 #include <qprocess.h>
 #include <qqmlinfo.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 #include "../core/generation.hpp"

@@ -5,7 +5,7 @@
 #include <private/qwaylandintegration_p.h>
 #include <qlogging.h>
 #include <qloggingcategory.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwayland-ext-idle-notify-v1.h>
 #include <qwaylandclientextension.h>
 #include <wayland-ext-idle-notify-v1-client-protocol.h>

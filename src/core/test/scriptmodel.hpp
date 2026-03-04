@@ -3,7 +3,7 @@
 #include <qdebug.h>
 #include <qobject.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 struct ModelOperation {
 	enum Enum : quint8 {

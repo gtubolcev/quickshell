@@ -2,7 +2,7 @@
 
 #include <qobject.h>
 #include <qqmlintegration.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 #include "../../../core/reload.hpp"

@@ -9,7 +9,7 @@
 #include <qdbusservicewatcher.h>
 #include <qobject.h>
 #include <qqmlintegration.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../wifi.hpp"
 #include "dbus_types.hpp"

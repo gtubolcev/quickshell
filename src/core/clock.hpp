@@ -5,7 +5,7 @@
 #include <qqmlintegration.h>
 #include <qtimer.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 ///! System clock accessor.
 /// SystemClock is a view into the system's clock.

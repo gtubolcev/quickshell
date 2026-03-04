@@ -13,9 +13,9 @@
 #include <qobjectdefs.h>
 #include <qqmlintegration.h>
 #include <qqmlparserstatus.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 #include "../core/generation.hpp"

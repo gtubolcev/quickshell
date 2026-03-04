@@ -6,9 +6,9 @@
 #include <qqmlinfo.h>
 #include <qqmlintegration.h>
 #include <qscreen.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 // unfortunately QQuickScreenInfo is private.
 

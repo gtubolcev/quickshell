@@ -4,7 +4,7 @@
 #include <qdbusargument.h>
 #include <qdebug.h>
 #include <qlist.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 struct DBusMenuLayout {
 	qint32 id = 0;

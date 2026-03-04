@@ -5,7 +5,7 @@
 #include <qobject.h>
 #include <qqmllist.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 
 #include "../../core/model.hpp"

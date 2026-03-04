@@ -6,7 +6,7 @@
 #include <qobject.h>
 #include <qproperty.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "connection.hpp"
 #include "monitor.hpp"

@@ -7,7 +7,7 @@
 #include <qobject.h>
 #include <qqmlcomponent.h>
 #include <qqmlintegration.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 
 #include "../core/logcat.hpp"

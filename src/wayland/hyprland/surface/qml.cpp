@@ -8,7 +8,7 @@
 #include <qqmlinfo.h>
 #include <qregion.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qvariant.h>
 #include <qwindow.h>
 

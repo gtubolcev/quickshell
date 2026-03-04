@@ -3,7 +3,7 @@
 #include <cstdint>
 
 #include <qrect.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qwayland-ext-image-copy-capture-v1.h>
 
 #include "../manager.hpp"

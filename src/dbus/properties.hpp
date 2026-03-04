@@ -18,7 +18,7 @@
 #include <qobject.h>
 #include <qoverload.h>
 #include <qstringview.h>
-#include <qtclasshelpermacros.h>
+#include <QtCore/qtclasshelpermacros.h>
 #include <qtmetamacros.h>
 #include <qtversionchecks.h>
 #include <qvariant.h>

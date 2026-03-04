@@ -8,7 +8,7 @@
 #include <qobject.h>
 #include <qscreen.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 #include <qwaylandclientextension.h>
 #include <wayland-wlr-screencopy-unstable-v1-client-protocol.h>
 

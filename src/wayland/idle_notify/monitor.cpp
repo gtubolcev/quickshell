@@ -3,7 +3,7 @@
 
 #include <qlogging.h>
 #include <qscopeguard.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "proto.hpp"
 
