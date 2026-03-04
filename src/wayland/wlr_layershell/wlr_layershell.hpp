@@ -9,7 +9,7 @@
 #include <qquickwindow.h>
 #include <qsize.h>
 #include <qtmetamacros.h>
-#include <qtypes.h>
+#include <QtCore/qtypes.h>
 
 #include "../../core/doc.hpp"
 #include "../../core/util.hpp"
