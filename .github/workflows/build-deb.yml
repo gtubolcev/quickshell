@@ -14,7 +14,7 @@ jobs:
       - name: Install deps
         run: |
           sudo apt update
-          sudo apt install -y build-essential ninja-build cmake pkg-config qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-shadertools-dev libxkbcommon-dev libwayland-dev wayland-protocols libegl1-mesa-dev libgbm-dev libdrm-dev libpipewire-0.3-dev libpam0g-dev libpolkit-agent-1-dev libpolkit-gobject-1-dev libglib2.0-dev libxcb1-dev libjemalloc-dev
+          sudo apt install -y build-essential ninja-build cmake pkg-config qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-shadertools-dev libxkbcommon-dev libwayland-dev wayland-protocols libegl1-mesa-dev libgbm-dev libdrm-dev libpipewire-0.3-dev libpam0g-dev libpolkit-agent-1-dev libpolkit-gobject-1-dev libglib2.0-dev libxcb1-dev libjemalloc-dev libcli11-dev
 
       - name: Configure
         run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DQS_BUILD_CRASH=OFF -DQS_BUILD_TESTS=OFF
