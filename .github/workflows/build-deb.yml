@@ -19,7 +19,7 @@ jobs:
           sudo apt update
           sudo apt install -y \
             build-essential cmake ninja-build \
-            qt6-base-dev qt6-declarative-dev qt6-wayland-dev \
+            qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-shadertools-dev \
             qt6-base-private-dev qt6-declarative-private-dev \
             libxkbcommon-dev libdrm-dev libgbm-dev libegl-dev \
             libxcb1-dev libpipewire-0.3-dev libglib2.0-dev \
