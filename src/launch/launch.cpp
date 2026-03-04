@@ -138,11 +138,11 @@ int launch(const LaunchArgs& args, char** argv, QCoreApplication* coreApplicatio
 	};
 
 #if CRASH_HANDLER
-	crash::#CrashHandler::init();
+//	crash::#CrashHandler::init();
 
 	{
 		auto* log = LogManager::instance();
-		crash::#CrashHandler::setRelaunchInfo({
+//		crash::#CrashHandler::setRelaunchInfo({
 		    .instance = InstanceInfo::CURRENT,
 		    .noColor = !log->colorLogs,
 		    .timestamp = log->timestampLogs,
