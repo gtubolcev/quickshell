@@ -105,7 +105,6 @@ int main(int argc, char** argv) {
 	QCoreApplication::setApplicationName("quickshell");
 
 #if CRASH_HANDLER
-////	#qsCheckCrash(argc, argv);
 #endif
 
 	auto qArgC = 1;
