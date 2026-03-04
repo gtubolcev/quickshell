@@ -16,6 +16,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y libjemalloc-dev \
+      - run: git clone https://github.com/jeremy-rifkin/cpptrace && cd cpptrace && cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && sudo cmake --build build --target install && cd ..
 git clone https://github.com/jeremy-rifkin/cpptrace && cd cpptrace && cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && sudo cmake --build build --target install && cd ..
             build-essential \
             cmake \
