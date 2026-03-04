@@ -10,7 +10,6 @@
 #include <qqmlerror.h>
 #include <qqmlincubator.h>
 #include <qquickwindow.h>
-#include <QtCore/qtclasshelpermacros.h>
 
 #include "incubator.hpp"
 #include "qsintercept.hpp"
