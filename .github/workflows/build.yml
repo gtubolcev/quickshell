@@ -30,7 +30,7 @@ jobs:
             spirv-tools libxkbcommon-dev libdrm-dev libgbm-dev libegl1-mesa-dev libglib2.0-dev libpolkit-agent-1-dev \
 
       - name: Configure
-        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DUSE_JEMALLOC=OFF
+        run: cmake -B build -G Ninja -DCMAKE_PREFIX_PATH=/usr -DCMAKE_BUILD_TYPE=Release -DUSE_JEMALLOC=OFF
 
       - name: Build
         run: cmake --build build
