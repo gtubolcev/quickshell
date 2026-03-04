@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y build-essential cmake ninja-build git pkg-config qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-base-private-dev qt6-declarative-private-dev qt6-tools-dev qt6-tools-dev-tools qt6-shadertools-dev libxkbcommon-dev libdrm-dev libgbm-dev libegl-dev libxcb1-dev libxcb-composite0-dev libpipewire-0.3-dev libglib2.0-dev libpolkit-agent-1-dev libpolkit-gobject-1-dev libpam0g-dev libjemalloc-dev
+          sudo apt install -y build-essential cmake ninja-build git pkg-config qt6-base-dev qt6-declarative-dev qt6-wayland-dev qt6-base-private-dev qt6-declarative-private-dev qt6-tools-dev qt6-tools-dev-tools qt6-shadertools-dev libxkbcommon-dev libdrm-dev libgbm-dev libegl-dev libxcb1-dev libxcb-composite0-dev libpipewire-0.3-dev libglib2.0-dev libpolkit-agent-1-dev libpolkit-gobject-1-dev libpam0g-dev
