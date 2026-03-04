@@ -1,5 +1,4 @@
 qt_add_executable(quickshell main.cpp)
-target_sources(quickshell PRIVATE src/crash_stub.cpp)
 
 install(TARGETS quickshell RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 
